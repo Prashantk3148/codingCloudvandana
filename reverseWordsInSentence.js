@@ -1,3 +1,6 @@
+// This code uses a simple loop to process the input sentence character by character, reversing each word in place. 
+// This approach minimizes additional data structures and has a very low time complexity..
+
 function reverseWordsInSentence(sentence) {
   let reversedSentence = "";
   let word = "";
